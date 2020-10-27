@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/ky/Projects/TUDublin/ImageProcessing/img_proc'
+VIRTUAL_ENV='/Users/kyungyoungheo/Projects/TUDublin/ImageProcessing/img_proc'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

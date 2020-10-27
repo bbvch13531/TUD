@@ -1,4 +1,4 @@
-#!/home/ky/Projects/TUDublin/ImageProcessing/img_proc/bin/python
+#!/Users/kyungyoungheo/Projects/TUDublin/ImageProcessing/img_proc/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
