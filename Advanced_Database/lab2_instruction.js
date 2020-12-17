@@ -111,7 +111,7 @@ Mapreduce examples: http://docs.mongodb.org/manual/tutorial/map-reduce-examples/
 
 ##############################################
 */
-
+db = db.getSiblingDB('teams')
 db.teams.insert({
 	team_id: "eng1",
 	date_founded: new Date("Oct 04, 1896"),
@@ -221,4 +221,4 @@ db.teams.insert({
               { p_id: "Cambiasso", goal: 35, caps: 176, age: 35 },
 			  { p_id: "Palacio", goal: 78, caps: 75, age: 31 } ]
 	 });
-	 
+db.teams.find({'team_id':"eng1"}) 
